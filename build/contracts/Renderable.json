@@ -1,0 +1,655 @@
+{
+  "contractName": "Renderable",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "locale",
+          "type": "string"
+        }
+      ],
+      "name": "adminWidgets",
+      "outputs": [
+        {
+          "name": "json",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "locale",
+          "type": "string"
+        }
+      ],
+      "name": "userWidgets",
+      "outputs": [
+        {
+          "name": "json",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "locale",
+          "type": "string"
+        }
+      ],
+      "name": "inputs",
+      "outputs": [
+        {
+          "name": "json",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.24;\n\ncontract Renderable {\n    function adminWidgets(string locale) public view returns (string json);\n\n    function userWidgets(string locale) public view returns (string json);\n\n    function inputs(string locale) public view returns (string json);\n}\n",
+  "sourcePath": "tokenboost-solidity/contracts/widget/Renderable.sol",
+  "ast": {
+    "absolutePath": "tokenboost-solidity/contracts/widget/Renderable.sol",
+    "exportedSymbols": {
+      "Renderable": [
+        4631
+      ]
+    },
+    "id": 4632,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 4609,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:22"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 4631,
+        "linearizedBaseContracts": [
+          4631
+        ],
+        "name": "Renderable",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4616,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "adminWidgets",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4612,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4611,
+                  "name": "locale",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4616,
+                  "src": "74:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4610,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "74:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "73:15:22"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 4615,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4614,
+                  "name": "json",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4616,
+                  "src": "110:11:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4613,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "110:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "109:13:22"
+            },
+            "scope": 4631,
+            "src": "52:71:22",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4623,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "userWidgets",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4619,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4618,
+                  "name": "locale",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4623,
+                  "src": "150:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4617,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "150:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "149:15:22"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 4622,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4621,
+                  "name": "json",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4623,
+                  "src": "186:11:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4620,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "186:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "185:13:22"
+            },
+            "scope": 4631,
+            "src": "129:70:22",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4630,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "inputs",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4626,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4625,
+                  "name": "locale",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4630,
+                  "src": "221:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4624,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "221:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "220:15:22"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 4629,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4628,
+                  "name": "json",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4630,
+                  "src": "257:11:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4627,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "257:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "256:13:22"
+            },
+            "scope": 4631,
+            "src": "205:65:22",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 4632,
+        "src": "26:246:22"
+      }
+    ],
+    "src": "0:273:22"
+  },
+  "legacyAST": {
+    "absolutePath": "tokenboost-solidity/contracts/widget/Renderable.sol",
+    "exportedSymbols": {
+      "Renderable": [
+        4631
+      ]
+    },
+    "id": 4632,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 4609,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:22"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 4631,
+        "linearizedBaseContracts": [
+          4631
+        ],
+        "name": "Renderable",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4616,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "adminWidgets",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4612,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4611,
+                  "name": "locale",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4616,
+                  "src": "74:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4610,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "74:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "73:15:22"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 4615,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4614,
+                  "name": "json",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4616,
+                  "src": "110:11:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4613,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "110:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "109:13:22"
+            },
+            "scope": 4631,
+            "src": "52:71:22",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4623,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "userWidgets",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4619,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4618,
+                  "name": "locale",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4623,
+                  "src": "150:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4617,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "150:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "149:15:22"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 4622,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4621,
+                  "name": "json",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4623,
+                  "src": "186:11:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4620,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "186:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "185:13:22"
+            },
+            "scope": 4631,
+            "src": "129:70:22",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4630,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "inputs",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4626,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4625,
+                  "name": "locale",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4630,
+                  "src": "221:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4624,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "221:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "220:15:22"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 4629,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4628,
+                  "name": "json",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4630,
+                  "src": "257:11:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 4627,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "257:6:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "256:13:22"
+            },
+            "scope": 4631,
+            "src": "205:65:22",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 4632,
+        "src": "26:246:22"
+      }
+    ],
+    "src": "0:273:22"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-09-18T23:50:12.831Z"
+}
