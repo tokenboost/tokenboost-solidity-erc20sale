@@ -1,8 +1,8 @@
 const ClaimRefundWidgetRenderer = artifacts.require("ClaimRefundWidgetRenderer");
 
-module.exports = function(deployer) {
-    return deployer.then(async () => {
-        let renderer = await deployer.deploy(ClaimRefundWidgetRenderer);
+module.exports = async (callback) => {
+    try {
+        let renderer = await ClaimRefundWidgetRenderer.deployed();
         await Promise.all([
             await renderer.setResource("en", "claim_refund", "Claim Refund"),
             await renderer.setResource("en", "short_desc", "You can claim refund of your investment."),
@@ -13,5 +13,9 @@ module.exports = function(deployer) {
             await renderer.setResource("en", "long_desc", "세일이 실패했기 때문에 환불 요청을 할 수 있습니다. 자금이 내 계좌로 전송됩니다."),
             await renderer.setResource("en", "claim_refund_confirm", "환불 요청하시겠습니까?"),
         ]);
-    });
+
+        callback();
+    } catch (e) {
+        callback(e);
+    }
 };
