@@ -35,7 +35,7 @@
   "homepage": "https://github.com/tokenboost/tokenboost-solidity-erc20sale",
   "dependencies": {
     "dotenv": "6.0.0",
-    "tokenboost-solidity": "1.1.0",
+    "tokenboost-solidity": "1.2.0",
     "truffle-hdwallet-provider": "0.0.6",
     "zeppelin-solidity": "^1.12.0"
   }
