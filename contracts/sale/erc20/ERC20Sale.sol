@@ -14,15 +14,15 @@ contract ERC20Sale is Sale {
         ^ this.template.selector ^ this.activate.selector
         ^ this.projectName.selector ^ this.projectSummary.selector ^ this.projectDescription.selector
         ^ this.logoUrl.selector ^ this.coverImageUrl.selector ^ this.websiteUrl.selector ^ this.whitepaperUrl.selector
-        ^ this.name.selector ^ this.weiRaised.selector ^ this.withdrawn.selector ^ this.ready.selector
+        ^ this.name.selector ^ this.weiRaised.selector ^ this.withdrawn.selector
         ^ this.started.selector ^ this.successful.selector ^ this.finished.selector ^ this.paymentOf.selector
         ^ bytes4(keccak256("update(string,string,string,string,string,string,string,string)"))
         ^ bytes4(keccak256("update(string,string,string,string,string,string,string,string,address)"))
         ^ this.addStrategy.selector ^ this.numberOfStrategies.selector ^ this.strategyAt.selector
-        ^ this.numberOfActivatedStrategies.selector ^ this.activatedStrategyAt.selector
-        ^ this.withdraw.selector ^ this.claimRefund.selector
+        ^ this.numberOfActivatedStrategies.selector ^ this.activatedStrategyAt.selector ^ this.withdraw.selector
+        ^ this.claimRefund.selector ^ this.purchasable.selector ^ this.getTokenAmount.selector
      */
-    bytes4 public constant InterfaceId_ERC20Sale = 0x95b5cfcb;
+    bytes4 public constant InterfaceId_ERC20Sale = 0x5f57e789;
 
     event TokenPurchase(
         address indexed purchaser,
@@ -70,36 +70,35 @@ contract ERC20Sale is Sale {
     function() whenActivated external payable {
         require(!finished());
         require(started());
-        require(_purchasable(msg.value));
+        require(purchasable(msg.value));
 
         increasePaymentOf(msg.sender, msg.value);
 
-        uint256 tokenAmount = _getTokenAmount(msg.value);
+        uint256 tokenAmount = getTokenAmount(msg.value);
         address tokenReceiver = _tokenReceiver(msg.sender, tokenAmount);
         require(_supplyTokens(tokenReceiver, tokenAmount));
 
         emit TokenPurchase(msg.sender, msg.value, tokenAmount);
     }
 
-    function _purchasable(uint256 _weiAmount) private view returns (bool) {
-        bool p = true;
+    function purchasable(uint256 _weiAmount) public view returns (bool) {
+        bool p = false;
         for (uint i = 0; i < activatedStrategies.length; i++) {
             ERC20SaleStrategy strategy = ERC20SaleStrategy(activatedStrategies[i]);
-            p = p && strategy.purchasable(msg.sender, _weiAmount);
+            p = p || strategy.purchasable(msg.sender, _weiAmount);
         }
         return p;
     }
 
-    function _getTokenAmount(uint256 _weiAmount) private view returns (uint256) {
-        uint256 tokenAmount = _weiAmount;
+    function getTokenAmount(uint256 _weiAmount) public view returns (uint256) {
         for (uint i = 0; i < activatedStrategies.length; i++) {
             ERC20SaleStrategy strategy = ERC20SaleStrategy(activatedStrategies[i]);
             uint256 rate = strategy.tokenRate(msg.sender, _weiAmount);
-            require(rate > 0);
-
-            tokenAmount = tokenAmount.mul(rate);
+            if (rate > 0) {
+                return _weiAmount.mul(rate);
+            }
         }
-        return tokenAmount;
+        return 0;
     }
 
     function _tokenReceiver(address _purchaser, uint256 _tokenAmount) private returns (address) {
