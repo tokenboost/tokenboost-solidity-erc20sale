@@ -1,6 +1,7 @@
 const TokenInfoWidgetRenderer = artifacts.require("TokenInfoWidgetRenderer");
 
 module.exports = async (callback) => {
+    console.log("Setting Up TokenInfoWidgetRenderer");
     try {
         let renderer = await TokenInfoWidgetRenderer.deployed();
         await Promise.all([

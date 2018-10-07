@@ -1,6 +1,7 @@
 const ClaimRefundWidgetRenderer = artifacts.require("ClaimRefundWidgetRenderer");
 
 module.exports = async (callback) => {
+    console.log("Setting Up ClaimRefundWidgetRenderer");
     try {
         let renderer = await ClaimRefundWidgetRenderer.deployed();
         await Promise.all([

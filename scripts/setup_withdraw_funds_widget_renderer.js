@@ -1,6 +1,7 @@
 const WithdrawFundsWidgetRenderer = artifacts.require("WithdrawFundsWidgetRenderer");
 
 module.exports = async (callback) => {
+    console.log("Setting Up WithdrawFundsWidgetRenderer");
     try {
         let renderer = await WithdrawFundsWidgetRenderer.deployed();
         await Promise.all([

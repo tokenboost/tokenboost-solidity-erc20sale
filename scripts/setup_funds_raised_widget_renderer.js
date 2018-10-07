@@ -1,6 +1,7 @@
 const FundsRaisedWidgetRenderer = artifacts.require("FundsRaisedWidgetRenderer");
 
 module.exports = async (callback) => {
+    console.log("Setting Up FundsRaisedWidgetRenderer");
     try {
         let renderer = await FundsRaisedWidgetRenderer.deployed();
         await Promise.all([

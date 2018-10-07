@@ -1,6 +1,7 @@
 const SaleAddressWidgetRenderer = artifacts.require("SaleAddressWidgetRenderer");
 
 module.exports = async (callback) => {
+    console.log("Setting Up SaleAddressWidgetRenderer");
     try {
         let renderer = await SaleAddressWidgetRenderer.deployed();
         await Promise.all([

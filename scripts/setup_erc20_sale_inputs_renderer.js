@@ -1,6 +1,7 @@
 const ERC20SaleInputsRenderer = artifacts.require("ERC20SaleInputsRenderer");
 
 module.exports = async (callback) => {
+    console.log("Setting Up ERC20SaleInputsRenderer");
     try {
         let renderer = await ERC20SaleInputsRenderer.deployed();
         await Promise.all([
