@@ -4,14 +4,14 @@ import "../ERC20Sale.sol";
 import "./ERC20SaleWidgetRenderer.sol";
 import "./ERC20SaleInputsRenderer.sol";
 
-contract ERC20SaleRenderer {
+contract ERC20SaleRenderer is Ownable {
     using strings for *;
 
     ERC20SaleWidgetRenderer[] adminWidgetRenderers;
     ERC20SaleWidgetRenderer[] userWidgetRenderers;
     ERC20SaleInputsRenderer public inputsRenderer;
 
-    function setAdminWidgetRenderers(ERC20SaleWidgetRenderer[] _renderers) public {
+    function setAdminWidgetRenderers(ERC20SaleWidgetRenderer[] _renderers) onlyOwner public {
         adminWidgetRenderers = _renderers;
     }
 
@@ -23,7 +23,7 @@ contract ERC20SaleRenderer {
         return adminWidgetRenderers[index];
     }
 
-    function setUserWidgetRenderers(ERC20SaleWidgetRenderer[] _renderers) public {
+    function setUserWidgetRenderers(ERC20SaleWidgetRenderer[] _renderers) onlyOwner public {
         userWidgetRenderers = _renderers;
     }
 
@@ -35,7 +35,7 @@ contract ERC20SaleRenderer {
         return userWidgetRenderers[index];
     }
 
-    function setInputsRenderer(ERC20SaleInputsRenderer _renderer) public {
+    function setInputsRenderer(ERC20SaleInputsRenderer _renderer) onlyOwner public {
         inputsRenderer = _renderer;
     }
 
