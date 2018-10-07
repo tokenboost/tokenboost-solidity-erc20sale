@@ -38,6 +38,8 @@ contract ERC20Sale is Sale {
         string _name,
         ERC20 _token
     ) public Sale(_owner, _projectName, _name) {
+        require(_token != address(0));
+
         token = _token;
 
         _registerInterface(InterfaceId_ERC20Sale);
