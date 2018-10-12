@@ -84,10 +84,10 @@ contract ERC20Sale is Sale {
     }
 
     function purchasable(uint256 _weiAmount) public view returns (bool) {
-        bool p = false;
+        bool p = true;
         for (uint i = 0; i < activatedStrategies.length; i++) {
             ERC20SaleStrategy strategy = ERC20SaleStrategy(activatedStrategies[i]);
-            p = p || strategy.purchasable(msg.sender, _weiAmount);
+            p = p && strategy.purchasable(msg.sender, _weiAmount);
         }
         return p;
     }
