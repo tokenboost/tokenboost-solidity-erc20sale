@@ -60,7 +60,7 @@ contract ERC20SaleInputsRenderer is ERC20SaleWidgetRenderer {
             PROJECT_DESCRIPTION,
             "markdownEdit",
             resources[_locale][PROJECT_DESCRIPTION],
-            _sale.projectSummary().quoted(),
+            _sale.projectDescription().quoted(),
             Actions.empty(),
             Tables.empty()
         );

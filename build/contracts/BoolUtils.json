@@ -11,14 +11,14 @@
     "absolutePath": "tokenboost-solidity/contracts/utils/BoolUtils.sol",
     "exportedSymbols": {
       "BoolUtils": [
-        2528
+        2536
       ]
     },
-    "id": 2529,
+    "id": 2537,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2511,
+        "id": 2519,
         "literals": [
           "solidity",
           "^",
@@ -34,27 +34,27 @@
         "contractKind": "library",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2528,
+        "id": 2536,
         "linearizedBaseContracts": [
-          2528
+          2536
         ],
         "name": "BoolUtils",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2526,
+              "id": 2534,
               "nodeType": "Block",
               "src": "118:110:18",
               "statements": [
                 {
                   "condition": {
                     "argumentTypes": null,
-                    "id": 2518,
+                    "id": 2526,
                     "name": "_self",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2513,
+                    "referencedDeclaration": 2521,
                     "src": "132:5:18",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -62,7 +62,7 @@
                     }
                   },
                   "falseBody": {
-                    "id": 2524,
+                    "id": 2532,
                     "nodeType": "Block",
                     "src": "183:39:18",
                     "statements": [
@@ -70,7 +70,7 @@
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "66616c7365",
-                          "id": 2522,
+                          "id": 2530,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -85,18 +85,18 @@
                           },
                           "value": "false"
                         },
-                        "functionReturnParameters": 2517,
-                        "id": 2523,
+                        "functionReturnParameters": 2525,
+                        "id": 2531,
                         "nodeType": "Return",
                         "src": "197:14:18"
                       }
                     ]
                   },
-                  "id": 2525,
+                  "id": 2533,
                   "nodeType": "IfStatement",
                   "src": "128:94:18",
                   "trueBody": {
-                    "id": 2521,
+                    "id": 2529,
                     "nodeType": "Block",
                     "src": "139:38:18",
                     "statements": [
@@ -104,7 +104,7 @@
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 2519,
+                          "id": 2527,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -119,8 +119,8 @@
                           },
                           "value": "true"
                         },
-                        "functionReturnParameters": 2517,
-                        "id": 2520,
+                        "functionReturnParameters": 2525,
+                        "id": 2528,
                         "nodeType": "Return",
                         "src": "153:13:18"
                       }
@@ -130,7 +130,7 @@
               ]
             },
             "documentation": null,
-            "id": 2527,
+            "id": 2535,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -138,15 +138,15 @@
             "name": "toString",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2514,
+              "id": 2522,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2513,
+                  "id": 2521,
                   "name": "_self",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2527,
+                  "scope": 2535,
                   "src": "68:10:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -155,7 +155,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2512,
+                    "id": 2520,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "68:4:18",
@@ -172,15 +172,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2517,
+              "id": 2525,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2516,
+                  "id": 2524,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2527,
+                  "scope": 2535,
                   "src": "103:6:18",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -189,7 +189,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2515,
+                    "id": 2523,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "103:6:18",
@@ -204,14 +204,14 @@
               ],
               "src": "102:15:18"
             },
-            "scope": 2528,
+            "scope": 2536,
             "src": "50:178:18",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 2529,
+        "scope": 2537,
         "src": "26:204:18"
       }
     ],
@@ -221,14 +221,14 @@
     "absolutePath": "tokenboost-solidity/contracts/utils/BoolUtils.sol",
     "exportedSymbols": {
       "BoolUtils": [
-        2528
+        2536
       ]
     },
-    "id": 2529,
+    "id": 2537,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2511,
+        "id": 2519,
         "literals": [
           "solidity",
           "^",
@@ -244,27 +244,27 @@
         "contractKind": "library",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2528,
+        "id": 2536,
         "linearizedBaseContracts": [
-          2528
+          2536
         ],
         "name": "BoolUtils",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2526,
+              "id": 2534,
               "nodeType": "Block",
               "src": "118:110:18",
               "statements": [
                 {
                   "condition": {
                     "argumentTypes": null,
-                    "id": 2518,
+                    "id": 2526,
                     "name": "_self",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2513,
+                    "referencedDeclaration": 2521,
                     "src": "132:5:18",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -272,7 +272,7 @@
                     }
                   },
                   "falseBody": {
-                    "id": 2524,
+                    "id": 2532,
                     "nodeType": "Block",
                     "src": "183:39:18",
                     "statements": [
@@ -280,7 +280,7 @@
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "66616c7365",
-                          "id": 2522,
+                          "id": 2530,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -295,18 +295,18 @@
                           },
                           "value": "false"
                         },
-                        "functionReturnParameters": 2517,
-                        "id": 2523,
+                        "functionReturnParameters": 2525,
+                        "id": 2531,
                         "nodeType": "Return",
                         "src": "197:14:18"
                       }
                     ]
                   },
-                  "id": 2525,
+                  "id": 2533,
                   "nodeType": "IfStatement",
                   "src": "128:94:18",
                   "trueBody": {
-                    "id": 2521,
+                    "id": 2529,
                     "nodeType": "Block",
                     "src": "139:38:18",
                     "statements": [
@@ -314,7 +314,7 @@
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 2519,
+                          "id": 2527,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -329,8 +329,8 @@
                           },
                           "value": "true"
                         },
-                        "functionReturnParameters": 2517,
-                        "id": 2520,
+                        "functionReturnParameters": 2525,
+                        "id": 2528,
                         "nodeType": "Return",
                         "src": "153:13:18"
                       }
@@ -340,7 +340,7 @@
               ]
             },
             "documentation": null,
-            "id": 2527,
+            "id": 2535,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -348,15 +348,15 @@
             "name": "toString",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2514,
+              "id": 2522,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2513,
+                  "id": 2521,
                   "name": "_self",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2527,
+                  "scope": 2535,
                   "src": "68:10:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -365,7 +365,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2512,
+                    "id": 2520,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "68:4:18",
@@ -382,15 +382,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2517,
+              "id": 2525,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2516,
+                  "id": 2524,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2527,
+                  "scope": 2535,
                   "src": "103:6:18",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -399,7 +399,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2515,
+                    "id": 2523,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "103:6:18",
@@ -414,14 +414,14 @@
               ],
               "src": "102:15:18"
             },
-            "scope": 2528,
+            "scope": 2536,
             "src": "50:178:18",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 2529,
+        "scope": 2537,
         "src": "26:204:18"
       }
     ],
@@ -433,5 +433,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-07T16:15:54.394Z"
+  "updatedAt": "2018-10-12T05:02:47.277Z"
 }

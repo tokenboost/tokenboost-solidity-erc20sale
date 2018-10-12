@@ -123,14 +123,14 @@
     "absolutePath": "tokenboost-solidity/contracts/widget/Localizable.sol",
     "exportedSymbols": {
       "Localizable": [
-        4769
+        4777
       ]
     },
-    "id": 4770,
+    "id": 4778,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 4723,
+        "id": 4731,
         "literals": [
           "solidity",
           "^",
@@ -143,10 +143,10 @@
       {
         "absolutePath": "zeppelin-solidity/contracts/ownership/Ownable.sol",
         "file": "zeppelin-solidity/contracts/ownership/Ownable.sol",
-        "id": 4724,
+        "id": 4732,
         "nodeType": "ImportDirective",
-        "scope": 4770,
-        "sourceUnit": 5367,
+        "scope": 4778,
+        "sourceUnit": 5375,
         "src": "26:59:24",
         "symbolAliases": [],
         "unitAlias": ""
@@ -157,41 +157,41 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 4725,
+              "id": 4733,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5366,
+              "referencedDeclaration": 5374,
               "src": "111:7:24",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$5366",
+                "typeIdentifier": "t_contract$_Ownable_$5374",
                 "typeString": "contract Ownable"
               }
             },
-            "id": 4726,
+            "id": 4734,
             "nodeType": "InheritanceSpecifier",
             "src": "111:7:24"
           }
         ],
         "contractDependencies": [
-          5366
+          5374
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 4769,
+        "id": 4777,
         "linearizedBaseContracts": [
-          4769,
-          5366
+          4777,
+          5374
         ],
         "name": "Localizable",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 4732,
+            "id": 4740,
             "name": "resources",
             "nodeType": "VariableDeclaration",
-            "scope": 4769,
+            "scope": 4777,
             "src": "125:54:24",
             "stateVariable": true,
             "storageLocation": "default",
@@ -200,9 +200,9 @@
               "typeString": "mapping(string => mapping(string => string))"
             },
             "typeName": {
-              "id": 4731,
+              "id": 4739,
               "keyType": {
-                "id": 4727,
+                "id": 4735,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "133:6:24",
@@ -218,9 +218,9 @@
                 "typeString": "mapping(string => mapping(string => string))"
               },
               "valueType": {
-                "id": 4730,
+                "id": 4738,
                 "keyType": {
-                  "id": 4728,
+                  "id": 4736,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "151:6:24",
@@ -236,7 +236,7 @@
                   "typeString": "mapping(string => string)"
                 },
                 "valueType": {
-                  "id": 4729,
+                  "id": 4737,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "161:6:24",
@@ -252,14 +252,14 @@
           },
           {
             "body": {
-              "id": 4751,
+              "id": 4759,
               "nodeType": "Block",
               "src": "265:47:24",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 4749,
+                    "id": 4757,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -270,25 +270,25 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 4743,
+                          "id": 4751,
                           "name": "resources",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4732,
+                          "referencedDeclaration": 4740,
                           "src": "275:9:24",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_string_memory_$_t_mapping$_t_string_memory_$_t_string_storage_$_$",
                             "typeString": "mapping(string memory => mapping(string memory => string storage ref))"
                           }
                         },
-                        "id": 4746,
+                        "id": 4754,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 4744,
+                          "id": 4752,
                           "name": "locale",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4734,
+                          "referencedDeclaration": 4742,
                           "src": "285:6:24",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -306,14 +306,14 @@
                           "typeString": "mapping(string memory => string storage ref)"
                         }
                       },
-                      "id": 4747,
+                      "id": 4755,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 4745,
+                        "id": 4753,
                         "name": "key",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4736,
+                        "referencedDeclaration": 4744,
                         "src": "293:3:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -335,11 +335,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 4748,
+                      "id": 4756,
                       "name": "value",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4738,
+                      "referencedDeclaration": 4746,
                       "src": "300:5:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -352,28 +352,28 @@
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 4750,
+                  "id": 4758,
                   "nodeType": "ExpressionStatement",
                   "src": "275:30:24"
                 }
               ]
             },
             "documentation": null,
-            "id": 4752,
+            "id": 4760,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": null,
-                "id": 4741,
+                "id": 4749,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 4740,
+                  "id": 4748,
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 5314,
+                  "referencedDeclaration": 5322,
                   "src": "255:9:24",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -387,15 +387,15 @@
             "name": "setResource",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4739,
+              "id": 4747,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4734,
+                  "id": 4742,
                   "name": "locale",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4752,
+                  "scope": 4760,
                   "src": "207:13:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -404,7 +404,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4733,
+                    "id": 4741,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "207:6:24",
@@ -418,10 +418,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 4736,
+                  "id": 4744,
                   "name": "key",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4752,
+                  "scope": 4760,
                   "src": "222:10:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -430,7 +430,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4735,
+                    "id": 4743,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "222:6:24",
@@ -444,10 +444,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 4738,
+                  "id": 4746,
                   "name": "value",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4752,
+                  "scope": 4760,
                   "src": "234:12:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -456,7 +456,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4737,
+                    "id": 4745,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "234:6:24",
@@ -473,12 +473,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 4742,
+              "id": 4750,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "265:0:24"
             },
-            "scope": 4769,
+            "scope": 4777,
             "src": "186:126:24",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -486,7 +486,7 @@
           },
           {
             "body": {
-              "id": 4767,
+              "id": 4775,
               "nodeType": "Block",
               "src": "392:46:24",
               "statements": [
@@ -497,25 +497,25 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 4761,
+                        "id": 4769,
                         "name": "resources",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4732,
+                        "referencedDeclaration": 4740,
                         "src": "409:9:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_string_memory_$_t_mapping$_t_string_memory_$_t_string_storage_$_$",
                           "typeString": "mapping(string memory => mapping(string memory => string storage ref))"
                         }
                       },
-                      "id": 4763,
+                      "id": 4771,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 4762,
+                        "id": 4770,
                         "name": "locale",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4754,
+                        "referencedDeclaration": 4762,
                         "src": "419:6:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -533,14 +533,14 @@
                         "typeString": "mapping(string memory => string storage ref)"
                       }
                     },
-                    "id": 4765,
+                    "id": 4773,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 4764,
+                      "id": 4772,
                       "name": "key",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4756,
+                      "referencedDeclaration": 4764,
                       "src": "427:3:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -558,15 +558,15 @@
                       "typeString": "string storage ref"
                     }
                   },
-                  "functionReturnParameters": 4760,
-                  "id": 4766,
+                  "functionReturnParameters": 4768,
+                  "id": 4774,
                   "nodeType": "Return",
                   "src": "402:29:24"
                 }
               ]
             },
             "documentation": null,
-            "id": 4768,
+            "id": 4776,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -574,15 +574,15 @@
             "name": "resource",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4757,
+              "id": 4765,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4754,
+                  "id": 4762,
                   "name": "locale",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4768,
+                  "scope": 4776,
                   "src": "336:13:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -591,7 +591,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4753,
+                    "id": 4761,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "336:6:24",
@@ -605,10 +605,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 4756,
+                  "id": 4764,
                   "name": "key",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4768,
+                  "scope": 4776,
                   "src": "351:10:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -617,7 +617,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4755,
+                    "id": 4763,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "351:6:24",
@@ -634,15 +634,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 4760,
+              "id": 4768,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4759,
+                  "id": 4767,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4768,
+                  "scope": 4776,
                   "src": "384:6:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -651,7 +651,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4758,
+                    "id": 4766,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "384:6:24",
@@ -666,14 +666,14 @@
               ],
               "src": "383:8:24"
             },
-            "scope": 4769,
+            "scope": 4777,
             "src": "318:120:24",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 4770,
+        "scope": 4778,
         "src": "87:353:24"
       }
     ],
@@ -683,14 +683,14 @@
     "absolutePath": "tokenboost-solidity/contracts/widget/Localizable.sol",
     "exportedSymbols": {
       "Localizable": [
-        4769
+        4777
       ]
     },
-    "id": 4770,
+    "id": 4778,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 4723,
+        "id": 4731,
         "literals": [
           "solidity",
           "^",
@@ -703,10 +703,10 @@
       {
         "absolutePath": "zeppelin-solidity/contracts/ownership/Ownable.sol",
         "file": "zeppelin-solidity/contracts/ownership/Ownable.sol",
-        "id": 4724,
+        "id": 4732,
         "nodeType": "ImportDirective",
-        "scope": 4770,
-        "sourceUnit": 5367,
+        "scope": 4778,
+        "sourceUnit": 5375,
         "src": "26:59:24",
         "symbolAliases": [],
         "unitAlias": ""
@@ -717,41 +717,41 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 4725,
+              "id": 4733,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5366,
+              "referencedDeclaration": 5374,
               "src": "111:7:24",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$5366",
+                "typeIdentifier": "t_contract$_Ownable_$5374",
                 "typeString": "contract Ownable"
               }
             },
-            "id": 4726,
+            "id": 4734,
             "nodeType": "InheritanceSpecifier",
             "src": "111:7:24"
           }
         ],
         "contractDependencies": [
-          5366
+          5374
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 4769,
+        "id": 4777,
         "linearizedBaseContracts": [
-          4769,
-          5366
+          4777,
+          5374
         ],
         "name": "Localizable",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 4732,
+            "id": 4740,
             "name": "resources",
             "nodeType": "VariableDeclaration",
-            "scope": 4769,
+            "scope": 4777,
             "src": "125:54:24",
             "stateVariable": true,
             "storageLocation": "default",
@@ -760,9 +760,9 @@
               "typeString": "mapping(string => mapping(string => string))"
             },
             "typeName": {
-              "id": 4731,
+              "id": 4739,
               "keyType": {
-                "id": 4727,
+                "id": 4735,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "133:6:24",
@@ -778,9 +778,9 @@
                 "typeString": "mapping(string => mapping(string => string))"
               },
               "valueType": {
-                "id": 4730,
+                "id": 4738,
                 "keyType": {
-                  "id": 4728,
+                  "id": 4736,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "151:6:24",
@@ -796,7 +796,7 @@
                   "typeString": "mapping(string => string)"
                 },
                 "valueType": {
-                  "id": 4729,
+                  "id": 4737,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "161:6:24",
@@ -812,14 +812,14 @@
           },
           {
             "body": {
-              "id": 4751,
+              "id": 4759,
               "nodeType": "Block",
               "src": "265:47:24",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 4749,
+                    "id": 4757,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -830,25 +830,25 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 4743,
+                          "id": 4751,
                           "name": "resources",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4732,
+                          "referencedDeclaration": 4740,
                           "src": "275:9:24",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_string_memory_$_t_mapping$_t_string_memory_$_t_string_storage_$_$",
                             "typeString": "mapping(string memory => mapping(string memory => string storage ref))"
                           }
                         },
-                        "id": 4746,
+                        "id": 4754,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 4744,
+                          "id": 4752,
                           "name": "locale",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4734,
+                          "referencedDeclaration": 4742,
                           "src": "285:6:24",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -866,14 +866,14 @@
                           "typeString": "mapping(string memory => string storage ref)"
                         }
                       },
-                      "id": 4747,
+                      "id": 4755,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 4745,
+                        "id": 4753,
                         "name": "key",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4736,
+                        "referencedDeclaration": 4744,
                         "src": "293:3:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -895,11 +895,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 4748,
+                      "id": 4756,
                       "name": "value",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4738,
+                      "referencedDeclaration": 4746,
                       "src": "300:5:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -912,28 +912,28 @@
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 4750,
+                  "id": 4758,
                   "nodeType": "ExpressionStatement",
                   "src": "275:30:24"
                 }
               ]
             },
             "documentation": null,
-            "id": 4752,
+            "id": 4760,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": null,
-                "id": 4741,
+                "id": 4749,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 4740,
+                  "id": 4748,
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 5314,
+                  "referencedDeclaration": 5322,
                   "src": "255:9:24",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -947,15 +947,15 @@
             "name": "setResource",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4739,
+              "id": 4747,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4734,
+                  "id": 4742,
                   "name": "locale",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4752,
+                  "scope": 4760,
                   "src": "207:13:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -964,7 +964,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4733,
+                    "id": 4741,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "207:6:24",
@@ -978,10 +978,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 4736,
+                  "id": 4744,
                   "name": "key",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4752,
+                  "scope": 4760,
                   "src": "222:10:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -990,7 +990,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4735,
+                    "id": 4743,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "222:6:24",
@@ -1004,10 +1004,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 4738,
+                  "id": 4746,
                   "name": "value",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4752,
+                  "scope": 4760,
                   "src": "234:12:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1016,7 +1016,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4737,
+                    "id": 4745,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "234:6:24",
@@ -1033,12 +1033,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 4742,
+              "id": 4750,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "265:0:24"
             },
-            "scope": 4769,
+            "scope": 4777,
             "src": "186:126:24",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1046,7 +1046,7 @@
           },
           {
             "body": {
-              "id": 4767,
+              "id": 4775,
               "nodeType": "Block",
               "src": "392:46:24",
               "statements": [
@@ -1057,25 +1057,25 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 4761,
+                        "id": 4769,
                         "name": "resources",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4732,
+                        "referencedDeclaration": 4740,
                         "src": "409:9:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_string_memory_$_t_mapping$_t_string_memory_$_t_string_storage_$_$",
                           "typeString": "mapping(string memory => mapping(string memory => string storage ref))"
                         }
                       },
-                      "id": 4763,
+                      "id": 4771,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 4762,
+                        "id": 4770,
                         "name": "locale",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4754,
+                        "referencedDeclaration": 4762,
                         "src": "419:6:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -1093,14 +1093,14 @@
                         "typeString": "mapping(string memory => string storage ref)"
                       }
                     },
-                    "id": 4765,
+                    "id": 4773,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 4764,
+                      "id": 4772,
                       "name": "key",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4756,
+                      "referencedDeclaration": 4764,
                       "src": "427:3:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -1118,15 +1118,15 @@
                       "typeString": "string storage ref"
                     }
                   },
-                  "functionReturnParameters": 4760,
-                  "id": 4766,
+                  "functionReturnParameters": 4768,
+                  "id": 4774,
                   "nodeType": "Return",
                   "src": "402:29:24"
                 }
               ]
             },
             "documentation": null,
-            "id": 4768,
+            "id": 4776,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1134,15 +1134,15 @@
             "name": "resource",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4757,
+              "id": 4765,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4754,
+                  "id": 4762,
                   "name": "locale",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4768,
+                  "scope": 4776,
                   "src": "336:13:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1151,7 +1151,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4753,
+                    "id": 4761,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "336:6:24",
@@ -1165,10 +1165,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 4756,
+                  "id": 4764,
                   "name": "key",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4768,
+                  "scope": 4776,
                   "src": "351:10:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1177,7 +1177,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4755,
+                    "id": 4763,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "351:6:24",
@@ -1194,15 +1194,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 4760,
+              "id": 4768,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4759,
+                  "id": 4767,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4768,
+                  "scope": 4776,
                   "src": "384:6:24",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1211,7 +1211,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4758,
+                    "id": 4766,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "384:6:24",
@@ -1226,14 +1226,14 @@
               ],
               "src": "383:8:24"
             },
-            "scope": 4769,
+            "scope": 4777,
             "src": "318:120:24",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 4770,
+        "scope": 4778,
         "src": "87:353:24"
       }
     ],
@@ -1245,5 +1245,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-07T16:15:54.408Z"
+  "updatedAt": "2018-10-12T05:02:47.286Z"
 }
