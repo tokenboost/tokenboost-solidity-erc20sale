@@ -17,6 +17,7 @@ module.exports = function(deployer) {
                 WithdrawFundsWidgetRenderer.address
             ]),
             await erc20SaleRenderer.setUserWidgetRenderers([
+                TokenInfoWidgetRenderer.address,
                 ClaimRefundWidgetRenderer.address
             ]),
             await erc20SaleRenderer.setInputsRenderer(ERC20SaleInputsRenderer.address)
