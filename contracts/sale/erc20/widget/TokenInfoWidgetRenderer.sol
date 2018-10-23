@@ -11,44 +11,23 @@ contract TokenInfoWidgetRenderer is ERC20SaleWidgetRenderer {
     using StringUtils for string;
 
     string public constant TOKEN_INFO = "token_info";
-    string public constant TOKEN_STANDARD = "token_standard";
-    string public constant TOKEN_NAME = "token_name";
-    string public constant TOKEN_SYMBOL = "token_symbol";
     string public constant TOKEN_ADDRESS = "token_address";
     string public constant SHORT_DESC = "short_desc";
     string public constant LONG_DESC = "long_desc";
 
     function render(string _locale, ERC20Sale _sale) public view returns (string) {
         DetailedERC20 token = DetailedERC20(_sale.token());
-        Elements.Element[] memory elements = new Elements.Element[](4);
+        Elements.Element[] memory elements = new Elements.Element[](2);
         elements[0] = Elements.Element(
             true,
-            TOKEN_STANDARD,
+            TOKEN_INFO,
             "text",
-            resources[_locale][TOKEN_STANDARD],
-            '"ERC20"',
+            "ERC20",
+            string(abi.encodePacked(token.name(), " (", token.symbol(), ")")).quoted(),
             Actions.empty(),
             Tables.empty()
         );
         elements[1] = Elements.Element(
-            true,
-            TOKEN_NAME,
-            "text",
-            resources[_locale][TOKEN_NAME],
-            token.name().quoted(),
-            Actions.empty(),
-            Tables.empty()
-        );
-        elements[2] = Elements.Element(
-            true,
-            TOKEN_SYMBOL,
-            "text",
-            resources[_locale][TOKEN_SYMBOL],
-            token.symbol().quoted(),
-            Actions.empty(),
-            Tables.empty()
-        );
-        elements[3] = Elements.Element(
             true,
             TOKEN_ADDRESS,
             "address",
