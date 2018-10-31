@@ -14,16 +14,16 @@ contract ERC20Sale is Sale {
         ^ this.template.selector ^ this.activate.selector
         ^ this.projectName.selector ^ this.projectSummary.selector ^ this.projectDescription.selector
         ^ this.logoUrl.selector ^ this.coverImageUrl.selector ^ this.websiteUrl.selector ^ this.whitepaperUrl.selector
-        ^ this.name.selector ^ this.weiRaised.selector ^ this.withdrawn.selector
+        ^ this.videoUrl.selector ^ this.name.selector ^ this.weiRaised.selector ^ this.withdrawn.selector
         ^ this.started.selector ^ this.successful.selector ^ this.finished.selector ^ this.paymentOf.selector
-        ^ bytes4(keccak256("update(string,string,string,string,string,string,string,string)"))
-        ^ bytes4(keccak256("update(string,string,string,string,string,string,string,string,address)"))
+        ^ bytes4(keccak256("update(string,string,string,string,string,string,string,string,string)"))
+        ^ bytes4(keccak256("update(string,string,string,string,string,string,string,string,string,address)"))
         ^ this.addStrategy.selector ^ this.numberOfStrategies.selector ^ this.strategyAt.selector
         ^ this.numberOfActivatedStrategies.selector ^ this.activatedStrategyAt.selector ^ this.withdraw.selector
         ^ this.claimRefund.selector ^ this.token.selector ^ this.numberOfPurchasers.selector ^ this.purchaserAt.selector
         ^ this.tokenAmountOf.selector ^ this.purchasable.selector ^ this.getTokenAmount.selector
      */
-    bytes4 public constant InterfaceId_ERC20Sale = 0xfd20e2b9;
+    bytes4 public constant InterfaceId_ERC20Sale = 0x90e2f494;
 
     event TokenPurchase(
         address indexed purchaser,
@@ -31,7 +31,6 @@ contract ERC20Sale is Sale {
         uint256 tokenAmount
     );
 
-    address[] purchasers;
     mapping(address => uint256) tokenAmountOfPurchaser;
     ERC20 public token;
 
@@ -48,14 +47,6 @@ contract ERC20Sale is Sale {
         _registerInterface(InterfaceId_ERC20Sale);
     }
 
-    function numberOfPurchasers() public view returns (uint256) {
-        return purchasers.length;
-    }
-
-    function purchaserAt(uint256 _index) public view returns (address) {
-        return purchasers[_index];
-    }
-
     function tokenAmountOf(address _purchaser) public view returns (uint256) {
         return tokenAmountOfPurchaser[_purchaser];
     }
@@ -68,6 +59,7 @@ contract ERC20Sale is Sale {
         string _coverImageUrl,
         string _websiteUrl,
         string _whitepaperUrl,
+        string _videoUrl,
         string _name,
         ERC20 _token
     ) public {
@@ -79,6 +71,7 @@ contract ERC20Sale is Sale {
             _coverImageUrl,
             _websiteUrl,
             _whitepaperUrl,
+            _videoUrl,
             _name
         );
         token = _token;
@@ -90,7 +83,6 @@ contract ERC20Sale is Sale {
         require(purchasable(msg.value));
 
         address purchaser = msg.sender;
-        _addPurchaser(purchaser);
         increasePaymentOf(purchaser, msg.value);
 
         uint256 tokenAmount = getTokenAmount(msg.value);
@@ -109,15 +101,6 @@ contract ERC20Sale is Sale {
             p = p && strategy.purchasable(msg.sender, _weiAmount);
         }
         return p;
-    }
-
-    function _addPurchaser(address _purchaser) private {
-        for(uint i = 0; i < purchasers.length; i++) {
-            if (purchasers[i] == _purchaser) {
-                return;
-            }
-        }
-        purchasers.push(_purchaser);
     }
 
     function getTokenAmount(uint256 _weiAmount) public view returns (uint256) {

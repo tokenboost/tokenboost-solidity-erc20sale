@@ -19,7 +19,7 @@ contract ERC20SaleTemplate is SaleTemplate {
     function instantiate(bytes _bytecode, bytes _args) public payable returns (address contractAddress) {
         ERC20Sale sale = ERC20Sale(super.instantiate(_bytecode, _args));
         // InterfaceId_ERC20Sale
-        require(sale.supportsInterface(0xfd20e2b9));
+        require(sale.supportsInterface(0x90e2f494));
         return sale;
     }
 }
