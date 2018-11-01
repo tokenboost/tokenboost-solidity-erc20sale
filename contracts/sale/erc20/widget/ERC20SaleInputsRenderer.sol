@@ -23,11 +23,12 @@ contract ERC20SaleInputsRenderer is ERC20SaleWidgetRenderer {
     string public constant COVER_IMAGE_URL = "cover_image_url";
     string public constant WEBSITE_URL = "website_url";
     string public constant WHITEPAPER_URL = "whitepaper_url";
+    string public constant VIDEO_URL = "video_url";
     string public constant UPDATE = "update";
     string public constant UPDATE_CONFIRM = "update_confirm";
 
     function render(string _locale, ERC20Sale _sale) public view returns (string) {
-        Elements.Element[] memory elements = new Elements.Element[](10);
+        Elements.Element[] memory elements = new Elements.Element[](11);
         elements[0] = Elements.Element(
             true,
             TOKEN_ADDRESS,
@@ -111,6 +112,15 @@ contract ERC20SaleInputsRenderer is ERC20SaleWidgetRenderer {
         );
         elements[9] = Elements.Element(
             true,
+            VIDEO_URL,
+            "urlEdit",
+            resources[_locale][VIDEO_URL],
+            _sale.videoUrl().quoted(),
+            Actions.empty(),
+            Tables.empty()
+        );
+        elements[10] = Elements.Element(
+            true,
             UPDATE,
             "button",
             resources[_locale][UPDATE],
@@ -118,8 +128,8 @@ contract ERC20SaleInputsRenderer is ERC20SaleWidgetRenderer {
             Actions.Action(
                 true,
                 address(_sale),
-                "update(string,string,string,string,string,string,string,string,address)",
-                '["project_name","project_summary","project_description","logo_url","cover_image_url","website_url","whitepaper_url","sale_name","token_address"]',
+                "update(string,string,string,string,string,string,string,string,string,address)",
+                '["project_name","project_summary","project_description","logo_url","cover_image_url","website_url","whitepaper_url","video_url","sale_name","token_address"]',
                 resources[_locale][UPDATE_CONFIRM]
             ),
             Tables.empty()

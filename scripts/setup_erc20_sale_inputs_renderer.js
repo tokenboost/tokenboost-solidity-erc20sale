@@ -14,6 +14,7 @@ module.exports = async (callback) => {
         await setResource(renderer, "en", "cover_image_url", "Cover Image URL");
         await setResource(renderer, "en", "website_url", "Website URL");
         await setResource(renderer, "en", "whitepaper_url", "Whitepaper URL");
+        await setResource(renderer, "en", "video_url", "Video URL");
         await setResource(renderer, "en", "update", "Update");
         await setResource(renderer, "en", "update_confirm", "Do you want to update?");
         await setResource(renderer, "ko", "token_address", "토큰 주소");
@@ -25,6 +26,7 @@ module.exports = async (callback) => {
         await setResource(renderer, "ko", "cover_image_url", "커버 이미지 URL");
         await setResource(renderer, "ko", "website_url", "웹사이트 URL");
         await setResource(renderer, "ko", "whitepaper_url", "백서 URL");
+        await setResource(renderer, "ko", "video_url", "비디오 URL");
         await setResource(renderer, "ko", "update", "업데이트");
         await setResource(renderer, "ko", "update_confirm", "업데이트 하시겠습니까?");
 
