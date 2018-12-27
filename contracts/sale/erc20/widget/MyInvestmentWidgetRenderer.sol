@@ -15,7 +15,7 @@ contract MyInvestmentWidgetRenderer is ERC20SaleWidgetRenderer {
     function render(string _locale, ERC20Sale _sale) public view returns (string) {
         uint256 payment = _sale.paymentOf(tx.origin);
         if (payment > 0) {
-            Elements.Element[] memory elements = new Elements.Element[](2);
+            Elements.Element[] memory elements = new Elements.Element[](1);
             elements[0] = Elements.Element(
                 true,
                 ETHS_INVESTED,
