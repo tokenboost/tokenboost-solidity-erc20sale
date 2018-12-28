@@ -14,7 +14,7 @@ contract ClaimRefundWidgetRenderer is ERC20SaleWidgetRenderer {
     function render(string _locale, ERC20Sale _sale) public view returns (string) {
         if (_sale.finished() && !_sale.successful()) {
             Elements.Element[] memory elements = new Elements.Element[](1);
-            elements[1] = Elements.Element(
+            elements[0] = Elements.Element(
                 true,
                 CLAIM_REFUND,
                 "button",

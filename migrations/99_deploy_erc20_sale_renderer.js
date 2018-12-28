@@ -22,7 +22,6 @@ module.exports = function (deployer) {
                 WithdrawFundsWidgetRenderer.address
             ]),
             await erc20SaleRenderer.setUserWidgetRenderers([
-                SaleStatusWidgetRenderer.address,
                 TokenInfoWidgetRenderer.address,
                 MyInvestmentWidgetRenderer.address,
                 ClaimRefundWidgetRenderer.address

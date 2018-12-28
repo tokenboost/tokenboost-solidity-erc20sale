@@ -795,7 +795,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 387,
-        "sourceUnit": 1307,
+        "sourceUnit": 1312,
         "src": "26:53:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -806,7 +806,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 387,
-        "sourceUnit": 3632,
+        "sourceUnit": 3637,
         "src": "80:57:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -817,7 +817,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 387,
-        "sourceUnit": 4860,
+        "sourceUnit": 4865,
         "src": "138:59:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -828,7 +828,7 @@
         "id": 5,
         "nodeType": "ImportDirective",
         "scope": 387,
-        "sourceUnit": 590,
+        "sourceUnit": 595,
         "src": "198:57:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -842,10 +842,10 @@
               "id": 6,
               "name": "Sale",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1306,
+              "referencedDeclaration": 1311,
               "src": "279:4:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Sale_$1306",
+                "typeIdentifier": "t_contract$_Sale_$1311",
                 "typeString": "contract Sale"
               }
             },
@@ -855,12 +855,12 @@
           }
         ],
         "contractDependencies": [
-          623,
-          667,
-          1306,
-          4585,
-          4636,
-          4816
+          628,
+          672,
+          1311,
+          4590,
+          4641,
+          4821
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -868,12 +868,12 @@
         "id": 386,
         "linearizedBaseContracts": [
           386,
-          1306,
-          623,
-          667,
-          4636,
-          4585,
-          4816
+          1311,
+          628,
+          672,
+          4641,
+          4590,
+          4821
         ],
         "name": "ERC20Sale",
         "nodeType": "ContractDefinition",
@@ -885,10 +885,10 @@
               "id": 8,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4730,
+              "referencedDeclaration": 4735,
               "src": "296:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$4730",
+                "typeIdentifier": "t_contract$_SafeMath_$4735",
                 "typeString": "library SafeMath"
               }
             },
@@ -912,10 +912,10 @@
               "id": 11,
               "name": "strings",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3631,
+              "referencedDeclaration": 3636,
               "src": "328:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_strings_$3631",
+                "typeIdentifier": "t_contract$_strings_$3636",
                 "typeString": "library strings"
               }
             },
@@ -1117,7 +1117,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_ERC20_$4859",
+              "typeIdentifier": "t_contract$_ERC20_$4864",
               "typeString": "contract ERC20"
             },
             "typeName": {
@@ -1125,10 +1125,10 @@
               "id": 28,
               "name": "ERC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4859,
+              "referencedDeclaration": 4864,
               "src": "1846:5:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC20_$4859",
+                "typeIdentifier": "t_contract$_ERC20_$4864",
                 "typeString": "contract ERC20"
               }
             },
@@ -1165,7 +1165,7 @@
                           "referencedDeclaration": 37,
                           "src": "2045:6:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20_$4859",
+                            "typeIdentifier": "t_contract$_ERC20_$4864",
                             "typeString": "contract ERC20"
                           }
                         },
@@ -1245,10 +1245,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "2037:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1290,7 +1290,7 @@
                       "referencedDeclaration": 29,
                       "src": "2077:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ERC20_$4859",
+                        "typeIdentifier": "t_contract$_ERC20_$4864",
                         "typeString": "contract ERC20"
                       }
                     },
@@ -1305,13 +1305,13 @@
                       "referencedDeclaration": 37,
                       "src": "2085:6:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ERC20_$4859",
+                        "typeIdentifier": "t_contract$_ERC20_$4864",
                         "typeString": "contract ERC20"
                       }
                     },
                     "src": "2077:14:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$4859",
+                      "typeIdentifier": "t_contract$_ERC20_$4864",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -1348,7 +1348,7 @@
                       "name": "_registerInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4635,
+                      "referencedDeclaration": 4640,
                       "src": "2102:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
@@ -1430,10 +1430,10 @@
                   "name": "Sale",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1306,
+                  "referencedDeclaration": 1311,
                   "src": "1993:4:0",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_Sale_$1306_$",
+                    "typeIdentifier": "t_type$_t_contract$_Sale_$1311_$",
                     "typeString": "type(contract Sale)"
                   }
                 },
@@ -1535,7 +1535,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ERC20_$4859",
+                    "typeIdentifier": "t_contract$_ERC20_$4864",
                     "typeString": "contract ERC20"
                   },
                   "typeName": {
@@ -1543,10 +1543,10 @@
                     "id": 36,
                     "name": "ERC20",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 4859,
+                    "referencedDeclaration": 4864,
                     "src": "1967:5:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$4859",
+                      "typeIdentifier": "t_contract$_ERC20_$4864",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -1877,7 +1877,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4952,
+                        "referencedDeclaration": 4957,
                         "src": "2614:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC20Sale_$386",
@@ -1891,7 +1891,7 @@
                       "lValueRequested": false,
                       "memberName": "update",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 806,
+                      "referencedDeclaration": 811,
                       "src": "2614:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$returns$__$",
@@ -1933,7 +1933,7 @@
                       "referencedDeclaration": 29,
                       "src": "2879:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ERC20_$4859",
+                        "typeIdentifier": "t_contract$_ERC20_$4864",
                         "typeString": "contract ERC20"
                       }
                     },
@@ -1948,13 +1948,13 @@
                       "referencedDeclaration": 94,
                       "src": "2887:6:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ERC20_$4859",
+                        "typeIdentifier": "t_contract$_ERC20_$4864",
                         "typeString": "contract ERC20"
                       }
                     },
                     "src": "2879:14:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$4859",
+                      "typeIdentifier": "t_contract$_ERC20_$4864",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -2220,7 +2220,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ERC20_$4859",
+                    "typeIdentifier": "t_contract$_ERC20_$4864",
                     "typeString": "contract ERC20"
                   },
                   "typeName": {
@@ -2228,10 +2228,10 @@
                     "id": 93,
                     "name": "ERC20",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 4859,
+                    "referencedDeclaration": 4864,
                     "src": "2578:5:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$4859",
+                      "typeIdentifier": "t_contract$_ERC20_$4864",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -2284,7 +2284,7 @@
                             "name": "finished",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1117,
+                            "referencedDeclaration": 1122,
                             "src": "2967:8:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
@@ -2322,10 +2322,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "2958:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2363,7 +2363,7 @@
                           "name": "started",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1035,
+                          "referencedDeclaration": 1040,
                           "src": "2996:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
@@ -2396,10 +2396,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "2988:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2439,7 +2439,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4906,
+                              "referencedDeclaration": 4911,
                               "src": "3036:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -2505,10 +2505,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "3016:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2574,7 +2574,7 @@
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4906,
+                      "referencedDeclaration": 4911,
                       "src": "3078:3:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
@@ -2623,7 +2623,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4906,
+                          "referencedDeclaration": 4911,
                           "src": "3127:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2660,7 +2660,7 @@
                       "name": "increasePaymentOf",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1184,
+                      "referencedDeclaration": 1189,
                       "src": "3098:17:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -2729,7 +2729,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4906,
+                          "referencedDeclaration": 4911,
                           "src": "3185:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -3041,10 +3041,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "3330:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3094,7 +3094,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4906,
+                          "referencedDeclaration": 4911,
                           "src": "3421:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -3190,7 +3190,7 @@
                   "name": "whenActivated",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 601,
+                  "referencedDeclaration": 606,
                   "src": "2917:13:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -3219,7 +3219,7 @@
             "scope": 386,
             "src": "2906:545:0",
             "stateMutability": "payable",
-            "superFunction": 1120,
+            "superFunction": 1125,
             "visibility": "external"
           },
           {
@@ -3303,7 +3303,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                               "typeString": "contract ERC20SaleStrategy"
                             },
                             "typeName": {
@@ -3311,10 +3311,10 @@
                               "id": 206,
                               "name": "ERC20SaleStrategy",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 589,
+                              "referencedDeclaration": 594,
                               "src": "3626:17:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -3334,10 +3334,10 @@
                                 "name": "activatedStrategies",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 712,
+                                "referencedDeclaration": 717,
                                 "src": "3673:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                                   "typeString": "contract SaleStrategy[] storage ref"
                                 }
                               },
@@ -3362,7 +3362,7 @@
                               "nodeType": "IndexAccess",
                               "src": "3673:22:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             }
@@ -3370,7 +3370,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             ],
@@ -3378,10 +3378,10 @@
                             "name": "ERC20SaleStrategy",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 589,
+                            "referencedDeclaration": 594,
                             "src": "3655:17:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$589_$",
+                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$594_$",
                               "typeString": "type(contract ERC20SaleStrategy)"
                             }
                           },
@@ -3395,7 +3395,7 @@
                           "nodeType": "FunctionCall",
                           "src": "3655:41:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                             "typeString": "contract ERC20SaleStrategy"
                           }
                         },
@@ -3462,7 +3462,7 @@
                                     "name": "msg",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 4906,
+                                    "referencedDeclaration": 4911,
                                     "src": "3740:3:0",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_magic_message",
@@ -3517,7 +3517,7 @@
                                   "referencedDeclaration": 207,
                                   "src": "3719:8:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                    "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                     "typeString": "contract ERC20SaleStrategy"
                                   }
                                 },
@@ -3528,7 +3528,7 @@
                                 "lValueRequested": false,
                                 "memberName": "purchasable",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 561,
+                                "referencedDeclaration": 566,
                                 "src": "3719:20:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -3601,10 +3601,10 @@
                         "name": "activatedStrategies",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 712,
+                        "referencedDeclaration": 717,
                         "src": "3579:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                           "typeString": "contract SaleStrategy[] storage ref"
                         }
                       },
@@ -3849,7 +3849,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                               "typeString": "contract ERC20SaleStrategy"
                             },
                             "typeName": {
@@ -3857,10 +3857,10 @@
                               "id": 248,
                               "name": "ERC20SaleStrategy",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 589,
+                              "referencedDeclaration": 594,
                               "src": "3956:17:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -3880,10 +3880,10 @@
                                 "name": "activatedStrategies",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 712,
+                                "referencedDeclaration": 717,
                                 "src": "4003:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                                   "typeString": "contract SaleStrategy[] storage ref"
                                 }
                               },
@@ -3908,7 +3908,7 @@
                               "nodeType": "IndexAccess",
                               "src": "4003:22:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             }
@@ -3916,7 +3916,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             ],
@@ -3924,10 +3924,10 @@
                             "name": "ERC20SaleStrategy",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 589,
+                            "referencedDeclaration": 594,
                             "src": "3985:17:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$589_$",
+                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$594_$",
                               "typeString": "type(contract ERC20SaleStrategy)"
                             }
                           },
@@ -3941,7 +3941,7 @@
                           "nodeType": "FunctionCall",
                           "src": "3985:41:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                             "typeString": "contract ERC20SaleStrategy"
                           }
                         },
@@ -3992,7 +3992,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4906,
+                                "referencedDeclaration": 4911,
                                 "src": "4074:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -4047,7 +4047,7 @@
                               "referencedDeclaration": 249,
                               "src": "4055:8:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -4058,7 +4058,7 @@
                             "lValueRequested": false,
                             "memberName": "tokenRate",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 570,
+                            "referencedDeclaration": 575,
                             "src": "4055:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -4187,7 +4187,7 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 4671,
+                                  "referencedDeclaration": 4676,
                                   "src": "4150:14:0",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4252,10 +4252,10 @@
                         "name": "activatedStrategies",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 712,
+                        "referencedDeclaration": 717,
                         "src": "3909:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                           "typeString": "contract SaleStrategy[] storage ref"
                         }
                       },
@@ -4605,7 +4605,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4729,
+                        "referencedDeclaration": 4734,
                         "src": "4350:38:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4745,7 +4745,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                               "typeString": "contract ERC20SaleStrategy"
                             },
                             "typeName": {
@@ -4753,10 +4753,10 @@
                               "id": 319,
                               "name": "ERC20SaleStrategy",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 589,
+                              "referencedDeclaration": 594,
                               "src": "4585:17:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -4776,10 +4776,10 @@
                                 "name": "activatedStrategies",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 712,
+                                "referencedDeclaration": 717,
                                 "src": "4632:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                                   "typeString": "contract SaleStrategy[] storage ref"
                                 }
                               },
@@ -4804,7 +4804,7 @@
                               "nodeType": "IndexAccess",
                               "src": "4632:22:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             }
@@ -4812,7 +4812,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             ],
@@ -4820,10 +4820,10 @@
                             "name": "ERC20SaleStrategy",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 589,
+                            "referencedDeclaration": 594,
                             "src": "4614:17:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$589_$",
+                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$594_$",
                               "typeString": "type(contract ERC20SaleStrategy)"
                             }
                           },
@@ -4837,7 +4837,7 @@
                           "nodeType": "FunctionCall",
                           "src": "4614:41:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                             "typeString": "contract ERC20SaleStrategy"
                           }
                         },
@@ -4895,7 +4895,7 @@
                               "referencedDeclaration": 320,
                               "src": "4673:8:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -4906,7 +4906,7 @@
                             "lValueRequested": false,
                             "memberName": "receivesTokens",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 588,
+                            "referencedDeclaration": 593,
                             "src": "4673:23:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -4949,7 +4949,7 @@
                                     "referencedDeclaration": 320,
                                     "src": "4757:8:0",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                      "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                       "typeString": "contract ERC20SaleStrategy"
                                     }
                                   }
@@ -4957,7 +4957,7 @@
                                 "expression": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                      "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                       "typeString": "contract ERC20SaleStrategy"
                                     }
                                   ],
@@ -5032,10 +5032,10 @@
                         "name": "activatedStrategies",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 712,
+                        "referencedDeclaration": 717,
                         "src": "4538:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                           "typeString": "contract SaleStrategy[] storage ref"
                         }
                       },
@@ -5306,7 +5306,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                               "typeString": "contract ERC20SaleStrategy"
                             },
                             "typeName": {
@@ -5314,10 +5314,10 @@
                               "id": 363,
                               "name": "ERC20SaleStrategy",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 589,
+                              "referencedDeclaration": 594,
                               "src": "4989:17:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -5337,10 +5337,10 @@
                                 "name": "activatedStrategies",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 712,
+                                "referencedDeclaration": 717,
                                 "src": "5036:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                                   "typeString": "contract SaleStrategy[] storage ref"
                                 }
                               },
@@ -5365,7 +5365,7 @@
                               "nodeType": "IndexAccess",
                               "src": "5036:22:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             }
@@ -5373,7 +5373,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             ],
@@ -5381,10 +5381,10 @@
                             "name": "ERC20SaleStrategy",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 589,
+                            "referencedDeclaration": 594,
                             "src": "5018:17:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$589_$",
+                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$594_$",
                               "typeString": "type(contract ERC20SaleStrategy)"
                             }
                           },
@@ -5398,7 +5398,7 @@
                           "nodeType": "FunctionCall",
                           "src": "5018:41:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                             "typeString": "contract ERC20SaleStrategy"
                           }
                         },
@@ -5456,7 +5456,7 @@
                               "referencedDeclaration": 364,
                               "src": "5077:8:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -5467,7 +5467,7 @@
                             "lValueRequested": false,
                             "memberName": "supplyTokens",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 579,
+                            "referencedDeclaration": 584,
                             "src": "5077:21:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -5560,10 +5560,10 @@
                         "name": "activatedStrategies",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 712,
+                        "referencedDeclaration": 717,
                         "src": "4942:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                           "typeString": "contract SaleStrategy[] storage ref"
                         }
                       },
@@ -5846,7 +5846,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 387,
-        "sourceUnit": 1307,
+        "sourceUnit": 1312,
         "src": "26:53:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5857,7 +5857,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 387,
-        "sourceUnit": 3632,
+        "sourceUnit": 3637,
         "src": "80:57:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5868,7 +5868,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 387,
-        "sourceUnit": 4860,
+        "sourceUnit": 4865,
         "src": "138:59:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5879,7 +5879,7 @@
         "id": 5,
         "nodeType": "ImportDirective",
         "scope": 387,
-        "sourceUnit": 590,
+        "sourceUnit": 595,
         "src": "198:57:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -5893,10 +5893,10 @@
               "id": 6,
               "name": "Sale",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1306,
+              "referencedDeclaration": 1311,
               "src": "279:4:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Sale_$1306",
+                "typeIdentifier": "t_contract$_Sale_$1311",
                 "typeString": "contract Sale"
               }
             },
@@ -5906,12 +5906,12 @@
           }
         ],
         "contractDependencies": [
-          623,
-          667,
-          1306,
-          4585,
-          4636,
-          4816
+          628,
+          672,
+          1311,
+          4590,
+          4641,
+          4821
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -5919,12 +5919,12 @@
         "id": 386,
         "linearizedBaseContracts": [
           386,
-          1306,
-          623,
-          667,
-          4636,
-          4585,
-          4816
+          1311,
+          628,
+          672,
+          4641,
+          4590,
+          4821
         ],
         "name": "ERC20Sale",
         "nodeType": "ContractDefinition",
@@ -5936,10 +5936,10 @@
               "id": 8,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4730,
+              "referencedDeclaration": 4735,
               "src": "296:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$4730",
+                "typeIdentifier": "t_contract$_SafeMath_$4735",
                 "typeString": "library SafeMath"
               }
             },
@@ -5963,10 +5963,10 @@
               "id": 11,
               "name": "strings",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3631,
+              "referencedDeclaration": 3636,
               "src": "328:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_strings_$3631",
+                "typeIdentifier": "t_contract$_strings_$3636",
                 "typeString": "library strings"
               }
             },
@@ -6168,7 +6168,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_ERC20_$4859",
+              "typeIdentifier": "t_contract$_ERC20_$4864",
               "typeString": "contract ERC20"
             },
             "typeName": {
@@ -6176,10 +6176,10 @@
               "id": 28,
               "name": "ERC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4859,
+              "referencedDeclaration": 4864,
               "src": "1846:5:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC20_$4859",
+                "typeIdentifier": "t_contract$_ERC20_$4864",
                 "typeString": "contract ERC20"
               }
             },
@@ -6216,7 +6216,7 @@
                           "referencedDeclaration": 37,
                           "src": "2045:6:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20_$4859",
+                            "typeIdentifier": "t_contract$_ERC20_$4864",
                             "typeString": "contract ERC20"
                           }
                         },
@@ -6296,10 +6296,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "2037:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6341,7 +6341,7 @@
                       "referencedDeclaration": 29,
                       "src": "2077:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ERC20_$4859",
+                        "typeIdentifier": "t_contract$_ERC20_$4864",
                         "typeString": "contract ERC20"
                       }
                     },
@@ -6356,13 +6356,13 @@
                       "referencedDeclaration": 37,
                       "src": "2085:6:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ERC20_$4859",
+                        "typeIdentifier": "t_contract$_ERC20_$4864",
                         "typeString": "contract ERC20"
                       }
                     },
                     "src": "2077:14:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$4859",
+                      "typeIdentifier": "t_contract$_ERC20_$4864",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -6399,7 +6399,7 @@
                       "name": "_registerInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4635,
+                      "referencedDeclaration": 4640,
                       "src": "2102:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
@@ -6481,10 +6481,10 @@
                   "name": "Sale",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1306,
+                  "referencedDeclaration": 1311,
                   "src": "1993:4:0",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_Sale_$1306_$",
+                    "typeIdentifier": "t_type$_t_contract$_Sale_$1311_$",
                     "typeString": "type(contract Sale)"
                   }
                 },
@@ -6586,7 +6586,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ERC20_$4859",
+                    "typeIdentifier": "t_contract$_ERC20_$4864",
                     "typeString": "contract ERC20"
                   },
                   "typeName": {
@@ -6594,10 +6594,10 @@
                     "id": 36,
                     "name": "ERC20",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 4859,
+                    "referencedDeclaration": 4864,
                     "src": "1967:5:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$4859",
+                      "typeIdentifier": "t_contract$_ERC20_$4864",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -6928,7 +6928,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4952,
+                        "referencedDeclaration": 4957,
                         "src": "2614:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC20Sale_$386",
@@ -6942,7 +6942,7 @@
                       "lValueRequested": false,
                       "memberName": "update",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 806,
+                      "referencedDeclaration": 811,
                       "src": "2614:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$returns$__$",
@@ -6984,7 +6984,7 @@
                       "referencedDeclaration": 29,
                       "src": "2879:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ERC20_$4859",
+                        "typeIdentifier": "t_contract$_ERC20_$4864",
                         "typeString": "contract ERC20"
                       }
                     },
@@ -6999,13 +6999,13 @@
                       "referencedDeclaration": 94,
                       "src": "2887:6:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ERC20_$4859",
+                        "typeIdentifier": "t_contract$_ERC20_$4864",
                         "typeString": "contract ERC20"
                       }
                     },
                     "src": "2879:14:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$4859",
+                      "typeIdentifier": "t_contract$_ERC20_$4864",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -7271,7 +7271,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ERC20_$4859",
+                    "typeIdentifier": "t_contract$_ERC20_$4864",
                     "typeString": "contract ERC20"
                   },
                   "typeName": {
@@ -7279,10 +7279,10 @@
                     "id": 93,
                     "name": "ERC20",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 4859,
+                    "referencedDeclaration": 4864,
                     "src": "2578:5:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ERC20_$4859",
+                      "typeIdentifier": "t_contract$_ERC20_$4864",
                       "typeString": "contract ERC20"
                     }
                   },
@@ -7335,7 +7335,7 @@
                             "name": "finished",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1117,
+                            "referencedDeclaration": 1122,
                             "src": "2967:8:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
@@ -7373,10 +7373,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "2958:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -7414,7 +7414,7 @@
                           "name": "started",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1035,
+                          "referencedDeclaration": 1040,
                           "src": "2996:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
@@ -7447,10 +7447,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "2988:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -7490,7 +7490,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4906,
+                              "referencedDeclaration": 4911,
                               "src": "3036:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -7556,10 +7556,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "3016:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -7625,7 +7625,7 @@
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4906,
+                      "referencedDeclaration": 4911,
                       "src": "3078:3:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
@@ -7674,7 +7674,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4906,
+                          "referencedDeclaration": 4911,
                           "src": "3127:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -7711,7 +7711,7 @@
                       "name": "increasePaymentOf",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1184,
+                      "referencedDeclaration": 1189,
                       "src": "3098:17:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -7780,7 +7780,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4906,
+                          "referencedDeclaration": 4911,
                           "src": "3185:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -8092,10 +8092,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4909,
-                        4910
+                        4914,
+                        4915
                       ],
-                      "referencedDeclaration": 4909,
+                      "referencedDeclaration": 4914,
                       "src": "3330:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -8145,7 +8145,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4906,
+                          "referencedDeclaration": 4911,
                           "src": "3421:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -8241,7 +8241,7 @@
                   "name": "whenActivated",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 601,
+                  "referencedDeclaration": 606,
                   "src": "2917:13:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -8270,7 +8270,7 @@
             "scope": 386,
             "src": "2906:545:0",
             "stateMutability": "payable",
-            "superFunction": 1120,
+            "superFunction": 1125,
             "visibility": "external"
           },
           {
@@ -8354,7 +8354,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                               "typeString": "contract ERC20SaleStrategy"
                             },
                             "typeName": {
@@ -8362,10 +8362,10 @@
                               "id": 206,
                               "name": "ERC20SaleStrategy",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 589,
+                              "referencedDeclaration": 594,
                               "src": "3626:17:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -8385,10 +8385,10 @@
                                 "name": "activatedStrategies",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 712,
+                                "referencedDeclaration": 717,
                                 "src": "3673:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                                   "typeString": "contract SaleStrategy[] storage ref"
                                 }
                               },
@@ -8413,7 +8413,7 @@
                               "nodeType": "IndexAccess",
                               "src": "3673:22:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             }
@@ -8421,7 +8421,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             ],
@@ -8429,10 +8429,10 @@
                             "name": "ERC20SaleStrategy",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 589,
+                            "referencedDeclaration": 594,
                             "src": "3655:17:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$589_$",
+                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$594_$",
                               "typeString": "type(contract ERC20SaleStrategy)"
                             }
                           },
@@ -8446,7 +8446,7 @@
                           "nodeType": "FunctionCall",
                           "src": "3655:41:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                             "typeString": "contract ERC20SaleStrategy"
                           }
                         },
@@ -8513,7 +8513,7 @@
                                     "name": "msg",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 4906,
+                                    "referencedDeclaration": 4911,
                                     "src": "3740:3:0",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_magic_message",
@@ -8568,7 +8568,7 @@
                                   "referencedDeclaration": 207,
                                   "src": "3719:8:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                    "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                     "typeString": "contract ERC20SaleStrategy"
                                   }
                                 },
@@ -8579,7 +8579,7 @@
                                 "lValueRequested": false,
                                 "memberName": "purchasable",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 561,
+                                "referencedDeclaration": 566,
                                 "src": "3719:20:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -8652,10 +8652,10 @@
                         "name": "activatedStrategies",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 712,
+                        "referencedDeclaration": 717,
                         "src": "3579:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                           "typeString": "contract SaleStrategy[] storage ref"
                         }
                       },
@@ -8900,7 +8900,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                               "typeString": "contract ERC20SaleStrategy"
                             },
                             "typeName": {
@@ -8908,10 +8908,10 @@
                               "id": 248,
                               "name": "ERC20SaleStrategy",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 589,
+                              "referencedDeclaration": 594,
                               "src": "3956:17:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -8931,10 +8931,10 @@
                                 "name": "activatedStrategies",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 712,
+                                "referencedDeclaration": 717,
                                 "src": "4003:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                                   "typeString": "contract SaleStrategy[] storage ref"
                                 }
                               },
@@ -8959,7 +8959,7 @@
                               "nodeType": "IndexAccess",
                               "src": "4003:22:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             }
@@ -8967,7 +8967,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             ],
@@ -8975,10 +8975,10 @@
                             "name": "ERC20SaleStrategy",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 589,
+                            "referencedDeclaration": 594,
                             "src": "3985:17:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$589_$",
+                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$594_$",
                               "typeString": "type(contract ERC20SaleStrategy)"
                             }
                           },
@@ -8992,7 +8992,7 @@
                           "nodeType": "FunctionCall",
                           "src": "3985:41:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                             "typeString": "contract ERC20SaleStrategy"
                           }
                         },
@@ -9043,7 +9043,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4906,
+                                "referencedDeclaration": 4911,
                                 "src": "4074:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -9098,7 +9098,7 @@
                               "referencedDeclaration": 249,
                               "src": "4055:8:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -9109,7 +9109,7 @@
                             "lValueRequested": false,
                             "memberName": "tokenRate",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 570,
+                            "referencedDeclaration": 575,
                             "src": "4055:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -9238,7 +9238,7 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 4671,
+                                  "referencedDeclaration": 4676,
                                   "src": "4150:14:0",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -9303,10 +9303,10 @@
                         "name": "activatedStrategies",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 712,
+                        "referencedDeclaration": 717,
                         "src": "3909:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                           "typeString": "contract SaleStrategy[] storage ref"
                         }
                       },
@@ -9656,7 +9656,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4729,
+                        "referencedDeclaration": 4734,
                         "src": "4350:38:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -9796,7 +9796,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                               "typeString": "contract ERC20SaleStrategy"
                             },
                             "typeName": {
@@ -9804,10 +9804,10 @@
                               "id": 319,
                               "name": "ERC20SaleStrategy",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 589,
+                              "referencedDeclaration": 594,
                               "src": "4585:17:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -9827,10 +9827,10 @@
                                 "name": "activatedStrategies",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 712,
+                                "referencedDeclaration": 717,
                                 "src": "4632:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                                   "typeString": "contract SaleStrategy[] storage ref"
                                 }
                               },
@@ -9855,7 +9855,7 @@
                               "nodeType": "IndexAccess",
                               "src": "4632:22:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             }
@@ -9863,7 +9863,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             ],
@@ -9871,10 +9871,10 @@
                             "name": "ERC20SaleStrategy",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 589,
+                            "referencedDeclaration": 594,
                             "src": "4614:17:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$589_$",
+                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$594_$",
                               "typeString": "type(contract ERC20SaleStrategy)"
                             }
                           },
@@ -9888,7 +9888,7 @@
                           "nodeType": "FunctionCall",
                           "src": "4614:41:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                             "typeString": "contract ERC20SaleStrategy"
                           }
                         },
@@ -9946,7 +9946,7 @@
                               "referencedDeclaration": 320,
                               "src": "4673:8:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -9957,7 +9957,7 @@
                             "lValueRequested": false,
                             "memberName": "receivesTokens",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 588,
+                            "referencedDeclaration": 593,
                             "src": "4673:23:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -10000,7 +10000,7 @@
                                     "referencedDeclaration": 320,
                                     "src": "4757:8:0",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                      "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                       "typeString": "contract ERC20SaleStrategy"
                                     }
                                   }
@@ -10008,7 +10008,7 @@
                                 "expression": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                      "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                       "typeString": "contract ERC20SaleStrategy"
                                     }
                                   ],
@@ -10083,10 +10083,10 @@
                         "name": "activatedStrategies",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 712,
+                        "referencedDeclaration": 717,
                         "src": "4538:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                           "typeString": "contract SaleStrategy[] storage ref"
                         }
                       },
@@ -10357,7 +10357,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                              "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                               "typeString": "contract ERC20SaleStrategy"
                             },
                             "typeName": {
@@ -10365,10 +10365,10 @@
                               "id": 363,
                               "name": "ERC20SaleStrategy",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 589,
+                              "referencedDeclaration": 594,
                               "src": "4989:17:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -10388,10 +10388,10 @@
                                 "name": "activatedStrategies",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 712,
+                                "referencedDeclaration": 717,
                                 "src": "5036:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                                  "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                                   "typeString": "contract SaleStrategy[] storage ref"
                                 }
                               },
@@ -10416,7 +10416,7 @@
                               "nodeType": "IndexAccess",
                               "src": "5036:22:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             }
@@ -10424,7 +10424,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_SaleStrategy_$1438",
+                                "typeIdentifier": "t_contract$_SaleStrategy_$1443",
                                 "typeString": "contract SaleStrategy"
                               }
                             ],
@@ -10432,10 +10432,10 @@
                             "name": "ERC20SaleStrategy",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 589,
+                            "referencedDeclaration": 594,
                             "src": "5018:17:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$589_$",
+                              "typeIdentifier": "t_type$_t_contract$_ERC20SaleStrategy_$594_$",
                               "typeString": "type(contract ERC20SaleStrategy)"
                             }
                           },
@@ -10449,7 +10449,7 @@
                           "nodeType": "FunctionCall",
                           "src": "5018:41:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                            "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                             "typeString": "contract ERC20SaleStrategy"
                           }
                         },
@@ -10507,7 +10507,7 @@
                               "referencedDeclaration": 364,
                               "src": "5077:8:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$589",
+                                "typeIdentifier": "t_contract$_ERC20SaleStrategy_$594",
                                 "typeString": "contract ERC20SaleStrategy"
                               }
                             },
@@ -10518,7 +10518,7 @@
                             "lValueRequested": false,
                             "memberName": "supplyTokens",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 579,
+                            "referencedDeclaration": 584,
                             "src": "5077:21:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -10611,10 +10611,10 @@
                         "name": "activatedStrategies",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 712,
+                        "referencedDeclaration": 717,
                         "src": "4942:19:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1438_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_contract$_SaleStrategy_$1443_$dyn_storage",
                           "typeString": "contract SaleStrategy[] storage ref"
                         }
                       },
@@ -10876,5 +10876,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-12-27T06:25:16.694Z"
+  "updatedAt": "2018-12-27T19:52:29.699Z"
 }
